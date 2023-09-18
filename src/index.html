@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <!-- header  -->
+    <div class="sticky top-0 border-b shadow-sm bg-white z-999">
+
+        <div class="flex flex-row justify-between h-24 items-center mx-4 xl:max-w-6xl xl:mx-auto">
+
+            <!-- left -->
+            <div class="w-24 hidden lg:inline-grid cursor-pointer">
+                <img src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016.png" alt="">
+            </div>
+            <div class="w-10 lg:hidden cursor-pointer">
+                <img src="https://www.exhibit.tech/wp-content/uploads/2022/05/Instagram-Icon.png" alt="">
+            </div>
+            <!-- middle -->
+            <div class="flex items-center">
+                <div class="relative left-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                      </svg>
+                      
+                </div>
+                <input class="border pl-10 h-10 rounded-md focus:ring-black focus:border-black bg-gray-50 border-gray-500 text-sm" type="text" placeholder="Search">
+            </div>
+            <!-- right -->
+            <div class="flex space-x-4 items-center">
+
+                <svg class="h-6 w-6 cursor-pointer hover:scale-125 transition-transform duration-300 ease-out hidden md:inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                    <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                </svg>
+                  
+                <svg class="h-6 w-6 cursor-pointer hover:scale-125 transition-transform duration-300 ease-out" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                  
+                <img class="h-10 rounded-full cursor-pointer" src="https://avatars.githubusercontent.com/u/111020648?v=4" alt="">
+                  
+            </div>
+    
+        </div>
+
+    </div>
+
+    <main class="grid grid-cols-1 md:grid-cols-3 mx-auto md:max-w-6xl">
+
+        <section class="md:col-span-2">   <!-- left  -->
+
+            <!-- stories  -->
+
+            <div class="flex space-x-2 p-6 mt-2 border overflow-x-scroll scrollbar-none rounded-sm">
+                <div class="cursor-pointer"> <!--relative class-->
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-gray hover:scale-110 transition-transform duration-200 ease-out" src="https://avatars.githubusercontent.com/u/111020648?v=4" alt="">
+                    <!-- <svg class="w-10 h-10 absolute bottom-[25px] left-[8px] text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>   -->
+                    <p class="text-xs w-14 truncate text-center">yashpreet2707</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1534945114807644173/h22f7y8F_400x400.png" alt="">
+                    <p class="text-xs w-14 truncate text-center">postman</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1699715675877761024/6qTN9hYf_400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">apiday.dehradun</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1599003507415166977/pRYwiTo3_400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">hkirat</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1561035641663606787/1f-S2sE7_400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">akshaysaini</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1686648623344594944/GzNNYgKX_400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">aanchalmishra</p>
+                </div>                
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://media.licdn.com/dms/image/C5603AQHOvcWzDuD9pQ/profile-displayphoto-shrink_800_800/0/1589972211462?e=1700697600&v=beta&t=OeAqwg7ycgDdQEJixLQmugM0xZX4Eof6tyc-SVU6TyQ" alt="">
+                    <p class="text-xs w-14 truncate text-center">lovebabbar</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1584779460858945536/GTR2doYy_400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">the_rain03</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1702372291869548545/yunDp9YT_400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">ankit__ay</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1547995274911420420/PsmSOGLN_400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">harshchaudhary__17</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://media.licdn.com/dms/image/D4D03AQHUTCN0nHnpoA/profile-displayphoto-shrink_800_800/0/1670214238116?e=1700697600&v=beta&t=oUUufLdTLP6f9OWPCAiAVuQcY8dxjfRcUahimWxkuUY" alt="">
+                    <p class="text-xs w-14 truncate text-center">anubhavagarwal</p>
+                </div>
+                <div class="cursor-pointer ml-4">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1505253231085047808/EEPD3HI-_400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">amitkumarpattanayak</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1691418807024115712/1Oin7EN8_400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">anshulwadhwa</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1695451284839845889/5xDK1r9__400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">sajalbatra</p>
+                </div>
+                <div class="cursor-pointer">
+                    <img class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-out" src="https://pbs.twimg.com/profile_images/1611281229118341120/0SMFzvOj_400x400.jpg" alt="">
+                    <p class="text-xs w-14 truncate text-center">shivankkapur</p>
+                </div>
+                
+                
+               
+                
+                
+                
+                
+
+
+            </div>
+
+            <!-- post 1  -->
+            <div class="border mt-7 bg-white ">
+                <!-- post header  -->
+                <div class="p-5 flex justify-between items-center">
+                    <img class="w-14 h-14 rounded-full p-[1.5px] border-2 border-red-500 mr-3" src="https://pbs.twimg.com/profile_images/1699715675877761024/6qTN9hYf_400x400.jpg" alt="">
+                    <p class="flex-1 font-semibold">apiday.dehradun</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                      
+                </div>
+                <!-- post image  -->
+
+                <!-- <img class="w-full object-cover" src="https://user-images.githubusercontent.com/111020648/268504207-96b3a00b-1ba4-4f7c-ba9d-49fe69835c7f.png" alt="">  -->
+                <img class="w-full object-cover" src="https://blog.postman.com/wp-content/uploads/2022/11/5-Postman-Features-That-Will-Help-You-On-Your-Postmanaut-Student-Journey-v1@2x.jpg" alt="">
+
+                <!-- post buttons -->
+
+                <div class="flex flex-row justify-between p-3">
+                    <div class="flex space-x-2">
+                        <svg class="btn hover:scale-125" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                        </svg>
+                        <svg class="btn hover:scale-125" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+                        </svg>
+                        <svg class="btn hover:scale-125 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <!-- -rotate-45 -->
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                        </svg>                          
+                    </div>
+                    <svg class="btn hover:scale-125" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                    </svg>
+                </div>
+                  
+
+                <!-- post caption  -->
+                <div class="flex space-x-2 items-center p-2 mx-2">
+                    <h2 class="font-semibold">apiday.dehradun</h2>
+                    <p class="text-sm truncate"> Something is cooking.</p>
+                </div>
+
+                <!-- post comments  -->
+
+                <div class="p-3 space-y-2 max-h-24 overflow-y-scroll scrollbar-none">
+                    <div class="flex items-center space-x-2 mx-10">
+                        <img class="h-8 w-8 rounded-full" src="https://avatars.githubusercontent.com/u/111020648?v=4" alt="">
+                        <p class="font-semibold">yashpreet2707</p>
+                        <p class="flex-1">Woah! Let's go.</p>
+                        <p class="text-xs">3 hours ago</p>
+                    </div>
+                    <div class="flex items-center space-x-2 mx-10">
+                        <img class="h-8 w-8 rounded-full" src="https://pbs.twimg.com/profile_images/1686648623344594944/GzNNYgKX_400x400.jpg" alt="">
+                        <p class="font-semibold">aanchal.mishra</p>
+                        <p class="flex-1">Excited!</p>
+                        <p class="text-xs">1 hour ago</p>
+                    </div>
+                    <div class="flex items-center space-x-2 mx-10">
+                        <img class="h-8 w-8 rounded-full" src="https://pbs.twimg.com/profile_images/1702372291869548545/yunDp9YT_400x400.jpg" alt="">
+                        <p class="font-semibold">ankit__ay</p>
+                        <p class="flex-1">Let's Freaking go!</p>
+                        <p class="text-xs">3 hours ago</p>
+                    </div>
+                    <div class="flex items-center space-x-2 mx-10">
+                        <img class="h-8 w-8 rounded-full" src="https://pbs.twimg.com/profile_images/1584779460858945536/GTR2doYy_400x400.jpg" alt="">
+                        <p class="font-semibold">the_rain</p>
+                        <p class="flex-1">Woah 🥳</p>
+                        <p class="text-xs">1 hour ago</p>
+                    </div>
+                    <div class="flex items-center space-x-2 mx-10">
+                        <img class="h-8 w-8 rounded-full" src="https://pbs.twimg.com/profile_images/1505253231085047808/EEPD3HI-_400x400.jpg" alt="">
+                        <p class="font-semibold">amitkumarpattanayak</p>
+                        <p class="flex-1">kya ho raha hai ?</p>
+                        <p class="text-xs">3 hours ago</p>
+                    </div>
+                    <div class="flex items-center space-x-2 mx-10">
+                        <img class="h-8 w-8 rounded-full" src="https://pbs.twimg.com/profile_images/1695451284839845889/5xDK1r9__400x400.jpg" alt="">
+                        <p class="font-semibold">sajalbatra</p>
+                        <p class="flex-1">mujhe bhi bula lena.</p>
+                        <p class="text-xs">2 hours ago</p>
+                    </div>
+                </div>
+
+                <!-- post input box  -->
+                <form class="flex p-4 items-center">
+                    <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+                    </svg>
+                    
+                    <input class="flex-1 border-none focus:ring-0" type="text" placeholder="Enter your comment.">
+                    <button class="font-bold text-blue-400">Post</button>
+                </form>
+
+            </div>
+
+            <!-- post 2  -->
+            <div class="border mt-7 bg-white ">
+                <!-- post header  -->
+                <div class="p-5 flex justify-between items-center">
+                    <img class="w-14 h-14 rounded-full p-[1.5px] border-2 border-gray mr-3" src="https://avatars.githubusercontent.com/u/111020648?v=4" alt="">
+                    <p class="flex-1 font-semibold">yashpreet2707</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                      
+                </div>
+                <!-- post image  -->
+
+                <!-- <img class="w-full object-cover" src="https://user-images.githubusercontent.com/111020648/268504207-96b3a00b-1ba4-4f7c-ba9d-49fe69835c7f.png" alt="">  -->
+                <img class="w-full object-cover" src="https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="">
+
+                <!-- post buttons -->
+
+                <div class="flex flex-row justify-between p-3">
+                    <div class="flex space-x-2">
+                        <svg class="btn hover:scale-125" xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                        </svg>                       
+                        <svg class="btn hover:scale-125" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+                        </svg>
+                        <svg class="btn hover:scale-125 -rotate-45" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                        </svg>                          
+                    </div>
+                    <svg class="btn hover:scale-125" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> <!-- -rotate-45 -->
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                    </svg>
+                </div>
+                <p class="font-semibold mx-5 text-sm">2 likes</p>
+
+                <!-- post caption  -->
+                <div class="flex space-x-2 items-center p-2 mx-2">
+                    <h2 class="font-semibold">yashpreet2707</h2>
+                    <p class="text-sm truncate">Finding happiness in the little things.</p>
+                </div>
+
+                <!-- post comments  -->
+
+                <div class="p-3 space-y-2 max-h-24 overflow-y-scroll scrollbar-none">
+                    <div class="flex items-center space-x-2 mx-10">
+                        <img class="h-8 w-8 rounded-full" src="https://pbs.twimg.com/profile_images/1584779460858945536/GTR2doYy_400x400.jpg" alt="">
+                        <p class="font-semibold">the_rain</p>
+                        <p class="flex-1">Amazing bro 💪</p>
+                        <p class="text-xs">1 hour ago</p>
+                    </div>
+                    <div class="flex items-center space-x-2 mx-10">
+                        <img class="h-8 w-8 rounded-full" src="https://pbs.twimg.com/profile_images/1702372291869548545/yunDp9YT_400x400.jpg" alt="">
+                        <p class="font-semibold">ankit__ay</p>
+                        <p class="flex-1">Nice click!</p>
+                        <p class="text-xs">3 hours ago</p>
+                    </div>
+                    <div class="flex items-center space-x-2 mx-10">
+                        <img class="h-8 w-8 rounded-full" src="https://pbs.twimg.com/profile_images/1505253231085047808/EEPD3HI-_400x400.jpg" alt="">
+                        <p class="font-semibold">amitkumarpattanayak</p>
+                        <p class="flex-1">badia view hai.</p>
+                        <p class="text-xs">3 hours ago</p>
+                    </div>
+                    <div class="flex items-center space-x-2 mx-10">
+                        <img class="h-8 w-8 rounded-full" src="https://pbs.twimg.com/profile_images/1695451284839845889/5xDK1r9__400x400.jpg" alt="">
+                        <p class="font-semibold">sajalbatra</p>
+                        <p class="flex-1">badia bhai</p>
+                        <p class="text-xs">2 hours ago</p>
+                    </div>
+                </div>
+
+                <!-- post input box  -->
+                <form class="flex p-4 items-center">
+                    <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+                    </svg>
+                    
+                    <input class="flex-1 border-none focus:ring-0" type="text" placeholder="Enter your comment.">
+                    <button class="font-bold text-blue-400">Post</button>
+                </form>
+
+            </div>
+
+            
+        </section>
+
+        <section class="hidden md:inline-grid md:colspan-1">   <!-- right  -->
+
+            <div class="fixed p-10">
+            <!-- mini profile  -->
+                <div class="p-5 flex items-center space-x-4">
+                    <img class="h-14 w-14 rounded-full border-2 border-gray p-[1.5px]" src="https://avatars.githubusercontent.com/u/111020648?v=4" alt="">
+                    <div class="flex-1">
+                        <h1 class="font-semibold">yashpreet2707</h1>
+                        <p class="text-gray-300">Welcome to Instagram</p>
+                    </div>
+                    <h2 class="text-blue-500 font-semibold pl-10">Sign out</h2>
+                </div>
+
+            <!-- suggestions  -->
+                <div>
+                    <div class="flex justify-between mx-5">
+                        <h3 class="text-sm text-gray-300">Suggestions for you</h3>
+                        <p class="text-sm text-gray-300">See all</p>
+                    </div>
+                    <div class="my-4 mx-5">
+                        <div class="flex space-x-4 items-center">
+                            <img class="h-10 w-10 rounded-full border-2 p-[1.5px] border-gray-300" src="https://pbs.twimg.com/profile_images/1669220641617113089/oTsViP5Z_400x400.jpg" alt="">
+                            <div class="flex-1">
+                                <p class="font-semibold">adityaoberai1</p>
+                            </div>
+                            <p class="text-blue-500"> Follow</p>
+                        </div>
+                        <div class="flex space-x-4 items-center mt-2">
+                            <img class="h-10 w-10 rounded-full border-2 p-[1.5px] border-gray-300" src="https://pbs.twimg.com/profile_images/1696603796573655041/p9OOFE32_400x400.jpg" alt="">
+                            <div class="flex-1">
+                                <p class="font-semibold">wth_ishiii</p>
+                            </div>
+                            <p class="text-blue-500"> Follow</p>
+                        </div>
+                        <div class="flex space-x-4 items-center mt-2">
+                            <img class="h-10 w-10 rounded-full border-2 p-[1.5px] border-gray-300" src="https://pbs.twimg.com/profile_images/1523978720213569536/8ZumfYzg_400x400.jpg" alt="">
+                            <div class="flex-1">
+                                <p class="font-semibold">kanak22</p>
+                            </div>
+                            <p class="text-blue-500"> Follow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+</body>
+</html>
